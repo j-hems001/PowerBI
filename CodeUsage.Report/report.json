@@ -1,0 +1,69 @@
+{
+  "config": "{\"version\":\"5.57\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU08\",\"version\":\"5.58\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU08",
+            "path": "BaseThemes/CY24SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[{\"name\":\"93f4dc01c714390da45f\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"lang\"}},\"Property\":\"Date\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"lang\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Between\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Date\"}},\"LowerBound\":{\"DateSpan\":{\"Expression\":{\"DateAdd\":{\"Expression\":{\"DateAdd\":{\"Expression\":{\"Now\":{}},\"Amount\":1,\"TimeUnit\":0}},\"Amount\":-3,\"TimeUnit\":2}},\"TimeUnit\":0}},\"UpperBound\":{\"DateSpan\":{\"Expression\":{\"Now\":{}},\"TimeUnit\":0}}}}}]},\"type\":\"RelativeDate\",\"howCreated\":1}]",
+      "height": 720.00,
+      "name": "66db582582dc3a3a9d8c",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0ad5866718635c032283\",\"layouts\":[{\"id\":0,\"position\":{\"x\":183.06569343065695,\"y\":29.78102189781022,\"z\":1,\"width\":199.7080291970803,\"height\":149.78102189781023,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"lang.PythonUsage\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"lang\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"PythonUsage\"},\"Name\":\"lang.PythonUsage\",\"NativeReferenceName\":\"PythonUsage\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"PythonUsage\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 149.78,
+          "width": 199.71,
+          "x": 183.07,
+          "y": 29.78,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"9b980c403149994a23f4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.7439446366782,\"y\":179.82006920415225,\"z\":0,\"width\":1270.2560553633218,\"height\":540.3460207612457,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"hundredPercentStackedAreaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"lang.Column1\",\"active\":true}],\"Series\":[{\"queryRef\":\"lang.Lang\"}],\"Y\":[{\"queryRef\":\"CountNonNull(lang.Lang)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"lang\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Date\"},\"Name\":\"lang.Column1\",\"NativeReferenceName\":\"Date\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Lang\"},\"Name\":\"lang.Lang\",\"NativeReferenceName\":\"Language\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Lang\"}},\"Function\":5},\"Name\":\"CountNonNull(lang.Lang)\",\"NativeReferenceName\":\"Proportion of Languages\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Date\"}}}]},\"columnProperties\":{\"lang.Column1\":{\"displayName\":\"Date\"},\"CountNonNull(lang.Lang)\":{\"displayName\":\"Proportion of Languages\"},\"lang.Lang\":{\"displayName\":\"Language\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"lineStyles\":[{\"properties\":{\"showMarker\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"seriesLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 540.35,
+          "width": 1270.26,
+          "x": 9.74,
+          "y": 179.82,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"ab46f693844cf57cd909\",\"layouts\":[{\"id\":0,\"position\":{\"x\":583.3576642335767,\"y\":29.78102189781022,\"z\":3,\"width\":199.7080291970803,\"height\":149.78102189781023,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"lang.OtherLang\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"lang\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"OtherLang\"},\"Name\":\"lang.OtherLang\",\"NativeReferenceName\":\"OtherLang\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"OtherLang\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 149.78,
+          "width": 199.71,
+          "x": 583.36,
+          "y": 29.78,
+          "z": 3.00
+        },
+        {
+          "config": "{\"name\":\"f275d6b62121ea9430f6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":382.77372262773724,\"y\":29.78102189781022,\"z\":2,\"width\":200.5839416058394,\"height\":149.78102189781023,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"lang.RUsage\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"lang\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"RUsage\"},\"Name\":\"lang.RUsage\",\"NativeReferenceName\":\"RUsage\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"RUsage\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 149.78,
+          "width": 200.58,
+          "x": 382.77,
+          "y": 29.78,
+          "z": 2.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
