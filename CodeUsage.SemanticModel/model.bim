@@ -1,0 +1,1247 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"lang\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.136.1202.0 (24.09)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "lang": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "lang"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "lang": {
+                      "State": "Generated",
+                      "Weight": 0.87
+                    }
+                  }
+                ]
+              },
+              "lang.column_1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "lang",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "column 1": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Column1": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "lang.column_1.variation.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "lang",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Column1"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "column 1 date hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "1 date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "lang.column_1.variation.date_hierarchy.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "lang",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Column1"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "column 1 day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "1 day": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "lang.column_1.variation.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "lang",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Column1"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "column 1 month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "1 month": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "column 1 mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "1 mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "lang.column_1.variation.date_hierarchy.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "lang",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Column1"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "column 1 quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "1 quarter": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "column 1 qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.846
+                    }
+                  },
+                  {
+                    "1 qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.833
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  }
+                ]
+              },
+              "lang.column_1.variation.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "lang",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Column1"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "column 1 year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "1 year": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "column 1 yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "1 yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "lang.email": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "lang",
+                    "ConceptualProperty": "Email"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "email": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "correspondence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "message": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "communication": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "lang.lang": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "lang",
+                    "ConceptualProperty": "Lang"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "lang": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Language": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "lang_column_1_has_variation_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "lang"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "lang.column_1.variation.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "lang.column_1"
+                      }
+                    },
+                    "ID": "column_1_have_column_1_date_hierarchies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "lang.column_1": {
+                    "Target": {
+                      "Entity": "lang.column_1"
+                    }
+                  },
+                  "lang.column_1.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "lang.column_1.variation.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lang_column_1_variation_date_hierarchy_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "lang"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "lang.column_1.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "lang.column_1.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "column_1_date_hierarchies_have_column_1_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "lang.column_1.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "lang.column_1.variation.date_hierarchy"
+                    }
+                  },
+                  "lang.column_1.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "lang.column_1.variation.date_hierarchy.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lang_column_1_variation_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "lang"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "lang.column_1.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "lang.column_1.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "column_1_date_hierarchies_have_column_1_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "lang.column_1.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "lang.column_1.variation.date_hierarchy"
+                    }
+                  },
+                  "lang.column_1.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "lang.column_1.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lang_column_1_variation_date_hierarchy_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "lang"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "lang.column_1.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "lang.column_1.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "column_1_date_hierarchies_have_column_1_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "lang.column_1.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "lang.column_1.variation.date_hierarchy"
+                    }
+                  },
+                  "lang.column_1.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "lang.column_1.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lang_column_1_variation_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "lang"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "lang.column_1.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "lang.column_1.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "column_1_date_hierarchies_have_column_1_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "lang.column_1.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "lang.column_1.variation.date_hierarchy"
+                    }
+                  },
+                  "lang.column_1.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "lang.column_1.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lang_has_column_1": {
+                "Binding": {
+                  "ConceptualEntity": "lang"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "lang.column_1"
+                      },
+                      "Subject": {
+                        "Role": "lang"
+                      }
+                    },
+                    "ID": "lang_have_column_1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "lang": {
+                    "Target": {
+                      "Entity": "lang"
+                    }
+                  },
+                  "lang.column_1": {
+                    "Target": {
+                      "Entity": "lang.column_1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lang_has_email": {
+                "Binding": {
+                  "ConceptualEntity": "lang"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "lang.email"
+                      },
+                      "Subject": {
+                        "Role": "lang"
+                      }
+                    },
+                    "ID": "lang_have_emails",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "lang": {
+                    "Target": {
+                      "Entity": "lang"
+                    }
+                  },
+                  "lang.email": {
+                    "Target": {
+                      "Entity": "lang.email"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lang_has_lang": {
+                "Binding": {
+                  "ConceptualEntity": "lang"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "lang.lang"
+                      },
+                      "Subject": {
+                        "Role": "lang"
+                      }
+                    },
+                    "ID": "lang_have_lang",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "lang": {
+                    "Target": {
+                      "Entity": "lang"
+                    }
+                  },
+                  "lang.lang": {
+                    "Target": {
+                      "Entity": "lang.lang"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "d95113dd-37bb-455b-beb6-3621b77a49d1",
+        "fromColumn": "Date",
+        "fromTable": "lang",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_09bd9d92-6f25-4a38-b843-b7f85055e15a"
+      }
+    ],
+    "sourceQueryCulture": "en-GB",
+    "tables": [
+      {
+        "name": "lang",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Email",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "89fe70b6-c6d4-4a15-8476-addba2d3fd3f",
+            "sourceColumn": "Email",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Lang",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "973f5068-d5f4-427f-9096-7d41bac8ed11",
+            "sourceColumn": "Lang",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "8a236973-2615-49f4-890c-c40c9babad5b",
+            "sourceColumn": "Date",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_09bd9d92-6f25-4a38-b843-b7f85055e15a"
+                },
+                "isDefault": true,
+                "relationship": "d95113dd-37bb-455b-beb6-3621b77a49d1"
+              }
+            ]
+          }
+        ],
+        "lineageTag": "e98c4e42-cb6e-44a3-9899-8008c0ea4dca",
+        "measures": [
+          {
+            "name": "AverageLanguageUsagePercentage",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "AVERAGEX(",
+              "    VALUES(lang[Lang]),",
+              "    DIVIDE(",
+              "        CALCULATE(COUNT(lang[Email])),",
+              "        CALCULATE(COUNT(lang[Email]), ALL(lang[Lang]))",
+              "    )",
+              ")",
+              ""
+            ],
+            "lineageTag": "d9477231-abde-4fa8-8fe1-62c1555e46d9"
+          },
+          {
+            "name": "PythonUsage",
+            "expression": [
+              "",
+              "",
+              "DIVIDE(",
+              "    CALCULATE(COUNT(lang[Lang]), FILTER(lang, lang[Lang] = \"Python\")),",
+              "    CALCULATE(COUNT(lang[Lang]))",
+              ")",
+              ""
+            ],
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "a30745a6-c626-4ebb-8434-7656ecf00f72"
+          },
+          {
+            "name": "RUsage",
+            "expression": [
+              "",
+              "var rcount = CALCULATE(COUNT(lang[Lang]), lang[Lang] = \"R\")",
+              "var total = COUNT(lang[Lang])",
+              "",
+              "return ",
+              "rcount/total"
+            ],
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "a7280024-5f76-47ec-a71e-7506a6feca57"
+          },
+          {
+            "name": "OtherLang",
+            "expression": [
+              "",
+              "var allother = CALCULATE(COUNT(lang[Lang]), lang[Lang] <> \"python\" && lang[Lang] <> \"r\")",
+              "var total = COUNT(lang[Lang])",
+              "",
+              "return ",
+              "allother/total"
+            ],
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "d7ec2451-73e6-4788-8b38-d3b5d8ca1856"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "lang",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"prddapinfsql2401.database.windows.net\", \"PRDDASH1\", [Query=\"SELECT #(lf)json_value([Identity], '$.email') as 'Email',#(lf)json_value([RequestParams], '$.commandLanguage') as 'Lang',#(lf)cast(TimeGenerated as date)#(lf)  FROM [RAW_DASHUsage].[am-databricksnotebook]#(lf)  where ActionName = 'runCommand'#(lf)  and [TimeIngested] >= dateadd(month,datediff(month,0,getdate())-12,0)#(lf)  GROUP BY cast(TimeGenerated as date), json_value([Identity], '$.email'), json_value([RequestParams], '$.commandLanguage')#(lf)  ORDER BY cast(TimeGenerated as date) desc#(lf)\"]),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(Source,{{\"Column1\", \"Date\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_080ecd66-85b1-4f24-8123-59f2f7646102",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "57874ed4-f2cd-4981-840f-f07145deb198",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "adbf0215-ef85-4b41-a674-60c0314ec978",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "434feaf5-c58e-4b65-9cf4-26a16f1222be",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "3a7e624f-8623-456a-81e9-75b43e2828b4",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "65fbd152-30c3-491c-92c2-e0f450759fbb",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "77c4ebcb-aebd-4a7e-9629-7ad229e55c88",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "9eb7cf1d-8894-4994-9e63-adb3be13e243",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "d02bf0b8-113b-487b-96ef-68d4f67b6f93",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "c9d0b512-8399-40f4-8a4d-d49c19f92ad9",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "2eedecf5-9e67-4137-95bc-6548265eae9c",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "70f33511-3e0b-455c-bfc9-1908fe456cc8",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "b860a572-ab97-44f2-9a26-8ef0d3b945b0"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "d6e759dc-b8b5-4dca-a8f0-f4ec08d87f3d",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_080ecd66-85b1-4f24-8123-59f2f7646102",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_09bd9d92-6f25-4a38-b843-b7f85055e15a",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "fb779d30-e8af-4c03-85d8-b4ced950b457",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "c3c69ac3-b9f6-491f-9dd6-acb80b788715",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "5c375c28-fd58-4e69-b49d-cb5c9af8d71a",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "d4dda2a4-40e9-4356-9f46-d68d244d3051",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "17ab61c3-7d59-4594-be51-0e39e2a748b7",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "183289be-e9ad-4b0c-8113-fa471c8cba02",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "9af0017a-5de6-441b-b00a-39fffc3041d9",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "009cf2d8-f7e3-4073-abfa-7a381d57cac3",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "e662f22d-bc01-44ee-8a90-49c831330c27",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "e315d796-c17d-4109-ba6c-549fbb13d1a4",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "086d25c8-0190-400e-a50b-3bca5d25e25f",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "b9385b34-e207-4b0c-b6f6-d1434cc9ee65"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "08a6a867-c16c-4fec-82c7-86d6037e9f27",
+        "partitions": [
+          {
+            "name": "LocalDateTable_09bd9d92-6f25-4a38-b843-b7f85055e15a",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('lang'[Date])), 1, 1), Date(Year(MAX('lang'[Date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}
