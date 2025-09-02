@@ -75,7 +75,7 @@
       "ordinal": 1,
       "visualContainers": [
         {
-          "config": "{\"name\":\"7836dc56800795852a94\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"New Page\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"32pt\"}}]}]}}]}}}",
+          "config": "{\"name\":\"7836dc56800795852a94\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"another new page\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"32pt\"}}]}]}}]}}}",
           "filters": "[]",
           "height": 280.00,
           "width": 280.00,
